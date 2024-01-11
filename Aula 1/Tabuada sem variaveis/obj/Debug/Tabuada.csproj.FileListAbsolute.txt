@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\Tabuada\bin\Debug\Tabuada.exe.config
+C:\Users\aluno\Desktop\Tabuada\bin\Debug\Tabuada.exe
+C:\Users\aluno\Desktop\Tabuada\bin\Debug\Tabuada.pdb
+C:\Users\aluno\Desktop\Tabuada\obj\Debug\Tabuada.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\Tabuada\obj\Debug\Tabuada.csproj.SuggestedBindingRedirects.cache
+C:\Users\aluno\Desktop\Tabuada\obj\Debug\Tabuada.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Tabuada\obj\Debug\Tabuada.exe
+C:\Users\aluno\Desktop\Tabuada\obj\Debug\Tabuada.pdb
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\bin\Debug\Tabuada.exe.config
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\bin\Debug\Tabuada.exe
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\bin\Debug\Tabuada.pdb
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\obj\Debug\Tabuada.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\obj\Debug\Tabuada.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\obj\Debug\Tabuada.exe
+C:\Users\USUARIO\Desktop\C#-Alessandro\C#\Aula 1\Tabuada sem variaveis\obj\Debug\Tabuada.pdb

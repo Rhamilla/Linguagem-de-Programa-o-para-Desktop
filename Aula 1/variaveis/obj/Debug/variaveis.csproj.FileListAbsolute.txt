@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\bin\Debug\variaveis.exe.config
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\bin\Debug\variaveis.exe
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\bin\Debug\variaveis.pdb
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\obj\Debug\variaveis.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\obj\Debug\variaveis.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\obj\Debug\variaveis.exe
+C:\Users\USUARIO\Desktop\Tabuada\variaveis\obj\Debug\variaveis.pdb
+C:\Users\USUARIO\Desktop\C#\variaveis\bin\Debug\variaveis.exe.config
+C:\Users\USUARIO\Desktop\C#\variaveis\bin\Debug\variaveis.exe
+C:\Users\USUARIO\Desktop\C#\variaveis\bin\Debug\variaveis.pdb
+C:\Users\USUARIO\Desktop\C#\variaveis\obj\Debug\variaveis.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\variaveis\obj\Debug\variaveis.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\variaveis\obj\Debug\variaveis.exe
+C:\Users\USUARIO\Desktop\C#\variaveis\obj\Debug\variaveis.pdb

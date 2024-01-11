@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\bin\Debug\tabuada loop.exe.config
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\bin\Debug\tabuada loop.exe
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\bin\Debug\tabuada loop.pdb
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\obj\Debug\tabuada loop.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\obj\Debug\tabuada loop.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\obj\Debug\tabuada loop.exe
+C:\Users\USUARIO\Desktop\C#\Aula 1\Tabuada sem variaveis\tabuada loop\obj\Debug\tabuada loop.pdb

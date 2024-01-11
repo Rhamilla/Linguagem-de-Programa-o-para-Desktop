@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\bin\Debug\conversão de numeros por extenso.exe.config
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\bin\Debug\conversão de numeros por extenso.exe
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\bin\Debug\conversão de numeros por extenso.pdb
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\obj\Debug\conversão de numeros por extenso.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\obj\Debug\conversão de numeros por extenso.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\obj\Debug\conversão de numeros por extenso.exe
+C:\Users\USUARIO\Desktop\C#\Ativ 1\conversão de numeros por extenso\obj\Debug\conversão de numeros por extenso.pdb

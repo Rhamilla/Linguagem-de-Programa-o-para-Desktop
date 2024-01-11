@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\bin\Debug\Aula 3 habilitação.exe.config
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\bin\Debug\Aula 3 habilitação.exe
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\bin\Debug\Aula 3 habilitação.pdb
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\obj\Debug\Aula 3 habilitação.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\obj\Debug\Aula 3 habilitação.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\obj\Debug\Aula 3 habilitação.exe
+C:\Users\USUARIO\Desktop\C#\Aula 3\Aula 3 habilitação\obj\Debug\Aula 3 habilitação.pdb

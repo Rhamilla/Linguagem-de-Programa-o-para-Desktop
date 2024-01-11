@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\bin\Debug\Jogadores.exe.config
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\bin\Debug\Jogadores.exe
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\bin\Debug\Jogadores.pdb
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\obj\Debug\Jogadores.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\obj\Debug\Jogadores.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\obj\Debug\Jogadores.exe
+C:\Users\USUARIO\Desktop\C#\Aula 4\Jogadores\obj\Debug\Jogadores.pdb

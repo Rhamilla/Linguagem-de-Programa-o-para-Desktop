@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\bin\Debug\Box salaria.exe.config
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\bin\Debug\Box salaria.exe
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\bin\Debug\Box salaria.pdb
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\obj\Debug\Box salaria.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\obj\Debug\Box salaria.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\obj\Debug\Box salaria.exe
+C:\Users\USUARIO\Desktop\C#\Aula 4\Box salaria\obj\Debug\Box salaria.pdb

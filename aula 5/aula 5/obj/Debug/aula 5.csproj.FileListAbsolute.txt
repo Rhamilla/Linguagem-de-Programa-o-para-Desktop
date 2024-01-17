@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\bin\Debug\aula 5.exe.config
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\bin\Debug\aula 5.exe
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\bin\Debug\aula 5.pdb
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\obj\Debug\aula 5.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\obj\Debug\aula 5.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\obj\Debug\aula 5.exe
+C:\Users\USUARIO\Desktop\C#\Aula 5\aula 5\aula 5\obj\Debug\aula 5.pdb

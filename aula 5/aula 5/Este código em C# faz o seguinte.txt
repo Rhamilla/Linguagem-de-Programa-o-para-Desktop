@@ -1,0 +1,47 @@
+Este código em C# faz o seguinte:
+using System;
+
+namespace Aula_5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Define an array of strings named pilotos with 4 elements
+            string[] pilotos = new string[4]
+            { "Ayrton Senna", "Michael Schumacher", "Lewis Hamilton", "Alain Prost" };
+
+            // Print the name of the driver at index 2
+            Console.WriteLine(pilotos[2]);
+            Console.WriteLine();
+
+            // Modify the driver at index 3
+            pilotos[3] = "Rubens Barrichello";
+
+            // Use a foreach loop to iterate through the array and print each driver's name
+            foreach (string piloto in pilotos)
+                Console.WriteLine(piloto);
+
+            Console.ReadLine();
+        }
+    }
+}
+
+
+string[] pilotos = new string[4] { " Ayrton Senna", "Michael Schumacher", "Lewis Hamilton", "Alain Prost" };: Cria um array de strings chamado pilotos com tamanho 4 e inicializa seus elementos com os nomes de alguns pilotos famosos.
+
+Console.WriteLine(pilotos[3]);: Imprime no console o conteúdo do elemento no índice 3 do array pilotos. Neste caso, o nome "Alain Prost" será impresso.
+
+Console.WriteLine();: Adiciona uma linha em branco no console.
+
+pilotos[3] = "Rubens Barrichello";: Modifica o valor do elemento no índice 3 do array pilotos, substituindo "Alain Prost" por "Rubens Barrichello".
+
+foreach (string piloto in pilotos): Inicia um loop foreach que percorre todos os elementos do array pilotos. A cada iteração, o valor do elemento atual é atribuído à variável temporária piloto.
+
+{: Início do bloco de código do loop.
+
+Console.WriteLine(piloto);: Imprime no console o nome do piloto atual.
+
+}: Fim do bloco de código do loop.
+
+Console.ReadLine();: Aguarda a entrada do usuário antes de fechar a aplicação. Isso permite que o usuário veja a saída do console antes que o programa termine.

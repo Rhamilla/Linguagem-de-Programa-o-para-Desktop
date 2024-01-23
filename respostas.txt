@@ -1,0 +1,459 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Revisao_1
+// Pergunta 1:Faça um programa para calcular o estoque medio de uma peça,sendo que: ESTOQUE MEDIO=(QUANTIDADE_MINIMA + QUANTIDADE_MAXIMA)/2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        { int quantidadeMinima, quantidadeMaxima;
+            double  estoqueMedio;
+            // Solicitar ao usuário para inserir a quantidade mínima e máxima
+            Console.Write("Digite a quantidade mínima de peças no estoque: ");
+               quantidadeMinima = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite a quantidade máxima de peças no estoque: ");
+                 quantidadeMaxima = int.Parse(Console.ReadLine());
+
+                // Calcular o estoque médio
+                 estoqueMedio = CalcularEstoqueMedio(quantidadeMinima, quantidadeMaxima);
+
+                // Exibir o resultado
+                Console.WriteLine($"O estoque médio é: {estoqueMedio}");
+                 Console.ReadLine();
+            }
+
+            // Função para calcular o estoque médio
+            static double CalcularEstoqueMedio(int quantidadeMinima, int quantidadeMaxima)
+            {
+                return (quantidadeMinima + quantidadeMaxima) / 2.0;
+             
+            }
+        }
+    }
+    
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_2
+//Faça um programa que em 
+//- Leia a cotação do dólar
+//- Leia um valor em dólares
+//- Converta esse valor para Real
+//- Mostre o resultado 
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {// Ler a cotação do dólar
+            Console.Write("Digite a cotação do dólar: ");
+            double cotacaoDolar = double.Parse(Console.ReadLine());
+
+            // Ler um valor em dólares
+            Console.Write("Digite o valor em dólares: "); 
+            double valorDolar = double.Parse(Console.ReadLine());
+
+            // Converter o valor para Real
+            double valorReal = ConverterDolarParaReal(valorDolar, cotacaoDolar);
+
+            // Exibir o resultado
+            Console.WriteLine($"O valor em Reais é: {valorReal:C}");
+            Console.ReadLine();
+        }
+
+        // Função para converter dólar para real
+        static double ConverterDolarParaReal(double valorDolar, double cotacaoDolar)
+        {
+            return valorDolar / cotacaoDolar;
+        }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_3
+//Faça um programa para pagamento de comissão de vendedores de peças, levando-se em consideração que sua
+//- Identificação do vendedor
+//- Código da peça
+//- Preço unitário da peça
+//- Quantidade vendida
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {  // Identificação do vendedor
+            Console.Write("Digite a identificação do vendedor: ");
+            string identificacaoVendedor = Console.ReadLine();
+
+            // Código da peça
+            Console.Write("Digite o código da peça: ");
+            string codigoPeca = Console.ReadLine();
+
+            // Preço unitário da peça
+            Console.Write("Digite o preço unitário da peça: ");
+            double precoUnitario = double.Parse(Console.ReadLine());
+
+            // Quantidade vendida
+            Console.Write("Digite a quantidade vendida: ");
+            int quantidadeVendida = int.Parse(Console.ReadLine());
+
+            // Calcular o total da venda
+            double totalVenda = precoUnitario * quantidadeVendida;
+
+            // Calcular a comissão (5% do total da venda)
+            double comissao = totalVenda * 0.05;
+
+            // Exibir os resultados
+            Console.WriteLine($"Identificação do vendedor: {identificacaoVendedor}");
+            Console.WriteLine($"Código da peça: {codigoPeca}");
+            Console.WriteLine($"Preço unitário da peça: {precoUnitario:C}");
+            Console.WriteLine($"Quantidade vendida: {quantidadeVendida}");
+            Console.WriteLine($"Total da venda: {totalVenda:C}");
+            Console.WriteLine($"Comissão do vendedor: {comissao:C}");
+            Console.ReadLine();
+        }
+    }
+    
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_4
+//Ler quatro valores numéricos inteiros e apresentar o resultado dois a dois da adição e multiplicação entre os
+//valores lidos, baseando-se na utilização do conceito de propriedade distributiva.Dica: se forem lidas as variáveis
+//A, B, C e D, devem ser somados e multiplicados os valores de A com B, A com C e A com D; depois B com C, B
+//com D e por último C com D. Note que para cada operação serão utilizadas seis combinações.Assim sendo,devem ser real
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {  // Ler quatro valores inteiros
+            Console.Write("Digite o primeiro valor (A): ");
+            int a = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o segundo valor (B): ");
+            int b = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o terceiro valor (C): ");
+            int c = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o quarto valor (D): ");
+            int d = int.Parse(Console.ReadLine());
+
+            // Realizar as operações de adição e multiplicação dois a dois
+            int resultado1 = a + b;
+            int resultado2 = a + c;
+            int resultado3 = a + d;
+            int resultado4 = b + c;
+            int resultado5 = b + d;
+            int resultado6 = c + d;
+
+            int resultado7 = a * b;
+            int resultado8 = a * c;
+            int resultado9 = a * d;
+            int resultado10 = b * c;
+            int resultado11 = b * d;
+            int resultado12 = c * d;
+
+            // Exibir os resultados
+            Console.WriteLine($"A + B = {resultado1}");
+            Console.WriteLine($"A + C = {resultado2}");
+            Console.WriteLine($"A + D = {resultado3}");
+            Console.WriteLine($"B + C = {resultado4}");
+            Console.WriteLine($"B + D = {resultado5}");
+            Console.WriteLine($"C + D = {resultado6}");
+
+            Console.WriteLine($"A * B = {resultado7}");
+            Console.WriteLine($"A * C = {resultado8}");
+            Console.WriteLine($"A * D = {resultado9}");
+            Console.WriteLine($"B * C = {resultado10}");
+            Console.WriteLine($"B * D = {resultado11}");
+            Console.WriteLine($"C * D = {resultado12}");
+            Console.ReadLine();
+        }
+    }
+    
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_5
+// Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz
+//12 Km por litro.Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média.
+//Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO * VELOCIDADE.
+//Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a
+//fórmula: LITROS_USADOS = DISTANCIA / 12.O programa deve apresentar os valores da velocidade média,
+//tempo gasto, a distância percorrida e a quantidade de litros utilizada na viagem.Dica: trabalhe com valores reais.
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {  // Solicitar ao usuário para inserir o tempo gasto e a velocidade média
+            Console.Write("Digite o tempo gasto na viagem (em horas): ");
+            double tempoGasto = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a velocidade média (em Km/h): ");
+            double velocidadeMedia = double.Parse(Console.ReadLine());
+
+            // Calcular a distância percorrida
+            double distanciaPercorrida = CalcularDistancia(tempoGasto, velocidadeMedia);
+
+            // Calcular a quantidade de litros de combustível utilizada
+            double litrosUsados = CalcularLitrosUsados(distanciaPercorrida);
+
+            // Exibir os resultados
+            Console.WriteLine($"Velocidade média: {velocidadeMedia} Km/h");
+            Console.WriteLine($"Tempo gasto na viagem: {tempoGasto} horas");
+            Console.WriteLine($"Distância percorrida: {distanciaPercorrida} Km");
+            Console.WriteLine($"Quantidade de litros utilizada: {litrosUsados} litros");
+            Console.ReadLine();
+        }
+
+        // Função para calcular a distância percorrida
+        static double CalcularDistancia(double tempoGasto, double velocidadeMedia)
+        {
+            return tempoGasto * velocidadeMedia;
+        }
+
+        // Função para calcular a quantidade de litros de combustível utilizada
+        static double CalcularLitrosUsados(double distanciaPercorrida)
+        {
+            return distanciaPercorrida / 12.0;
+        }
+    }
+    
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_6
+//Ler uma temperatura em graus Celsius e apresentá-Ia convertida em graus Fahrenheit. A fórmula de conversão de
+//temperatura a ser utilizada é F = (9 * C + 160) / 5, em que a variável F representa é a temperatura em graus
+//Fahrenheit e a variável C representa é a temperatura em graus Celsius.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {   // Solicitar ao usuário para inserir a temperatura em graus Celsius
+            Console.Write("Digite a temperatura em graus Celsius: ");
+            double temperaturaC = double.Parse(Console.ReadLine());
+
+            // Calcular a temperatura em graus Fahrenheit
+            double temperaturaF = ConverterCelsiusParaFahrenheit(temperaturaC);
+
+            // Exibir o resultado
+            Console.WriteLine($"A temperatura em graus Fahrenheit é: {temperaturaF} °F");
+            Console.ReadLine();
+        }
+
+        // Função para converter Celsius para Fahrenheit
+        static double ConverterCelsiusParaFahrenheit(double temperaturaC)
+        {
+            return (9 * temperaturaC + 160) / 5;
+            }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_7
+ //Ler uma temperatura em graus Fahrenheit e apresentá-Ia convertida em graus Celsius. A fórmula de conversão de
+//temperatura a ser utilizada é C = (F - 32) * 5 / 9, em que a variável F é a temperatura em graus Fahrenheit e a
+//variável C é a temperatura em graus Celsius.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Solicitar ao usuário para inserir a temperatura em graus Fahrenheit
+            Console.Write("Digite a temperatura em graus Fahrenheit: ");
+            double temperaturaF = double.Parse(Console.ReadLine());
+
+            // Calcular a temperatura em graus Celsius
+            double temperaturaC = ConverterFahrenheitParaCelsius(temperaturaF);
+
+            // Exibir o resultado
+            Console.WriteLine($"A temperatura em graus Celsius é: {temperaturaC} °C");
+            Console.ReadLine();
+        }
+
+        // Função para converter Fahrenheit para Celsius
+        static double ConverterFahrenheitParaCelsius(double temperaturaF)
+        {
+            return (temperaturaF - 32) * 5 / 9;
+        }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_8
+//Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula:
+//V = 3.14159 * R * R * A Onde as variáveis: V, R e A representam respectivamente o volume, o raio e a altura.
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {// Solicitar ao usuário para inserir o raio e a altura da lata de óleo
+            Console.Write("Digite o raio da lata de óleo: ");
+            double raio = double.Parse(Console.ReadLine());
+
+            Console.Write("Digite a altura da lata de óleo: ");
+            double altura = double.Parse(Console.ReadLine());
+
+            // Calcular o volume da lata de óleo
+            double volume = CalcularVolumeLataOleo(raio, altura);
+
+            // Exibir o resultado
+            Console.WriteLine($"O volume da lata de óleo é: {volume} unidades cúbicas");
+            Console.ReadLine();
+        }
+
+        // Função para calcular o volume da lata de óleo
+        static double CalcularVolumeLataOleo(double raio, double altura)
+        {
+            return 3.14159 * raio * raio * altura;
+        }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_9
+//Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa
+//pessoa expressa apenas em dias.Considerar ano com 365 dias e mês com 30 dias.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {   // Solicitar ao usuário para inserir a idade em anos, meses e dias
+            Console.Write("Digite a idade em anos: ");
+            int anos = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a idade em meses: ");
+            int meses = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a idade em dias: ");
+            int dias = int.Parse(Console.ReadLine());
+
+            // Calcular a idade em dias
+            int idadeEmDias = CalcularIdadeEmDias(anos, meses, dias);
+
+            // Exibir o resultado
+            Console.WriteLine($"A idade em dias é: {idadeEmDias} dias");
+            Console.ReadLine();
+        }
+
+        // Função para calcular a idade em dias
+        static int CalcularIdadeEmDias(int anos, int meses, int dias)
+        {
+            return anos * 365 + meses * 30 + dias;
+        }
+    }
+}
+---------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Revisao_10
+//Escrever um programa que leia dois números inteiros e mostre todos os relacionamentos de ordem existentes
+//entre eles.Os relacionamentos possíveis são: Igual, Não igual, Maior, Menor, Maior ou igual, Menor ou igual.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        { // Solicitar ao usuário para inserir dois números inteiros
+            Console.Write("Digite o primeiro número inteiro: ");
+            int numero1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o segundo número inteiro: ");
+            int numero2 = int.Parse(Console.ReadLine());
+
+            // Verificar e exibir os relacionamentos de ordem
+            if (numero1 == numero2)
+            {
+                Console.WriteLine($"{numero1} é igual a {numero2}");
+            }
+            else
+            {
+                Console.WriteLine($"{numero1} não é igual a {numero2}");
+            }
+
+            if (numero1 != numero2)
+            {
+                Console.WriteLine($"{numero1} é diferente de {numero2}");
+            }
+
+            if (numero1 > numero2)
+            {
+                Console.WriteLine($"{numero1} é maior do que {numero2}");
+            }
+
+            if (numero1 < numero2)
+            {
+                Console.WriteLine($"{numero1} é menor do que {numero2}");
+            }
+
+            if (numero1 >= numero2)
+            {
+                Console.WriteLine($"{numero1} é maior ou igual a {numero2}");
+            }
+
+            if (numero1 <= numero2)
+            {
+                Console.WriteLine($"{numero1} é menor ou igual a {numero2}");
+                Console.ReadLine();
+            }
+
+        }
+    }
+}
+
+---------------------------------------------------
+
+

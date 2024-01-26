@@ -1,0 +1,7 @@
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\bin\Debug\Trabalho Final.exe.config
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\bin\Debug\Trabalho Final.exe
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\bin\Debug\Trabalho Final.pdb
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\obj\Debug\Trabalho Final.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\obj\Debug\Trabalho Final.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\obj\Debug\Trabalho Final.exe
+C:\Users\USUARIO\Desktop\C#\Ativ revisao\Trabalho Final\Trabalho Final\obj\Debug\Trabalho Final.pdb
